@@ -10,6 +10,7 @@ function printBadges(array){
 
 function tailsNeverFails(){
     while (Math.random() >= .5) {
-      return `You got " " tails in a row!`;
+      let i = iteration
+      return `You got ${i} tails in a row!`;
   }
 }
