@@ -6,11 +6,10 @@ function printBadges(array){
   return array
 }
 
-let i = 0;
-let j = 0;
-
 function tailsNeverFails(){
     let tails = Math.random() <= 0.5;
+    let i = 0;
+    let j = 0;
 
     while(tails){
         i++;
