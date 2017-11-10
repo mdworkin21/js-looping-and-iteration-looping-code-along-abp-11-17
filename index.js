@@ -7,6 +7,7 @@ function printBadges(array){
 }
 
 let tails = Math.random()
+let i = 0
 
 
 function tailsNeverFails(){
