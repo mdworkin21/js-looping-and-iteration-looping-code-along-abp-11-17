@@ -10,7 +10,7 @@ function printBadges(array){
 function tailsNeverFails(){
     let tails = Math.random() >= 0.5;
 
-    while(tails){
+    while(tails === true){
       let i = 0;
       let j = 0;
         i++;
