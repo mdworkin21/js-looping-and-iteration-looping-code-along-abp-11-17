@@ -8,13 +8,11 @@ function printBadges(array){
 
 
 function tailsNeverFails(){
-    return Math.random() <= 0.5
+    let tails = Math.random() <= 0.5
 
-    
-    while(tailsNeverFails()){
-      let count = 1
-      count++
-      return `You got ${count} tails in a row!`
+
+    while(tails === true){
+      
+      return `You got ${} tails in a row!`
     }
 }
-
