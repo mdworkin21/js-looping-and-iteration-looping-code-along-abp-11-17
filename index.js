@@ -13,7 +13,7 @@ function maybeTrue () {
 
 
 function tailsNeverFails(){
-    let heads <= .5
+    let heads < .5
     while (maybeTrue() !== heads) {
 
     let i = 0
