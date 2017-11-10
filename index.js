@@ -6,15 +6,15 @@ function printBadges(array){
   return array
 }
 
+
 function tailsNeverFails(){
     let tails = Math.random() <= 0.5;
-
 
     while(tails){
       let i = 0;
       let j = 0;
         i++;
         j += i
-        return `You got ${i} tails in a row!`;
+        return `You got ${j} tails in a row!`;
     }
 }
