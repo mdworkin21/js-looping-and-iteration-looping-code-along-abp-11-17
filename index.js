@@ -6,12 +6,12 @@ function printBadges(array){
   return array
 }
 
-let tails = Math.random()
-let i = 0
+
 
 
 function tailsNeverFails(){
-
+  let tails = Math.random()
+  let i = 0
     while (tails >= .5 ) {
     i++
     return `You got ${i} tails in a row!`;
