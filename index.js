@@ -15,7 +15,7 @@ function tailsNeverFails(){
 
     let i = 1
     i++
-    return `You got ${'i'} tails in a row!`;
+    return `You got ${i} tails in a row!`;
   }
 
 
