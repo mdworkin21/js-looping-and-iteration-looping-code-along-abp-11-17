@@ -11,7 +11,7 @@ function maybeTrue () {
 }
 
 function tailsNeverFails(){
-    while (maybeTrue() >= .5) {
+    while (maybeTrue() !== .5) {
 
     let i = 7
     i++
