@@ -6,13 +6,12 @@ function printBadges(array){
   return array
 }
 
+function maybeTrue () {
+  return Math.random() >= 0.5;
+}
 
 function tailsNeverFails(){
-  function maybeTrue () {
-    return Math.random() >= 0.5;
-  }
-
-  while (maybeTrue() >= .5) {
+    while (maybeTrue() >= .5) {
 
     let i = 1
     i++
