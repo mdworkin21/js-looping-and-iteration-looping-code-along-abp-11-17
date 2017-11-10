@@ -7,7 +7,7 @@ function printBadges(array){
 }
 
 function maybeTrue () {
-  return Math.random() >= 0.5;
+  return Math.random() >= 0.49;
 }
 
 
