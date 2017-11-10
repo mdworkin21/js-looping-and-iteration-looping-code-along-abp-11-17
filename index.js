@@ -11,7 +11,7 @@ function tailsNeverFails(){
     function tails(){
        Math.random() <= 0.5}
 
-    while(tails() === true){
+    while(tails()){
         let i = 1;
         i++;
         return `You got ${i} tails in a row!`;
