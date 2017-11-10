@@ -6,6 +6,7 @@ function printBadges(array){
   return array
 }
 
+let heads => .5
 
 function tailsNeverFails(){
     let tails = Math.random() <= 0.5;
