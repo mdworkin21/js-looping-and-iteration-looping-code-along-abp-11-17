@@ -12,7 +12,7 @@ function tailsNeverFails(){
     return Math.random() >= 0.5;
   }
 
-  while (maybeTrue()) {
+  while (maybeTrue() >= .5) {
     let i = 0
     i++
     return `You got ${i} tails in a row!`;
