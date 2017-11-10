@@ -8,9 +8,9 @@ function printBadges(array){
 
 
 function tailsNeverFails(){
-    return Math.random()
+    return Math.random() <= .5
 
-  
+
 }
 
 while(tailsNeverFails() >= .5){
