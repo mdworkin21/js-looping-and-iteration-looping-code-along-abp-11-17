@@ -10,9 +10,10 @@ function maybeTrue () {
   return Math.random() >= 0.5;
 }
 
-let heads => .5
+
 
 function tailsNeverFails(){
+    let heads >= .5
     while (maybeTrue() !== heads) {
 
     let i = 0
