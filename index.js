@@ -9,7 +9,8 @@ function printBadges(array){
 
 
 function tailsNeverFails(){
-    while ((Math.random() >= .5) === true) {
+    let tails = (Math.random() >= .5)
+    while ( tails) {
       let i = 0
       i++
       return `You got ${i} tails in a row!`;
